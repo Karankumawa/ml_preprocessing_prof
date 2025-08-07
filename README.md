@@ -14,17 +14,43 @@ A comprehensive Python library for comparing different preprocessing techniques 
 
 ## 📦 Installation
 
+### Option 1: Install from GitHub (Recommended)
+
 ```bash
-pip install ml-preprocessing-profiler
+pip install git+https://github.com/Karankumawa/ml_preprocessing_prof.git
 ```
 
-Or install from source:
+### Option 2: Clone and Install Locally
 
 ```bash
 git clone https://github.com/Karankumawa/ml_preprocessing_prof.git
 cd ml_preprocessing_profiler
 pip install -e .
 ```
+
+### Option 3: Use Installation Script
+
+```bash
+git clone https://github.com/Karankumawa/ml_preprocessing_prof.git
+cd ml_preprocessing_profiler
+python install.py
+```
+
+### Option 4: Manual Installation
+
+```bash
+# Install dependencies first
+pip install scikit-learn pandas matplotlib seaborn numpy
+
+# Clone and install
+git clone https://github.com/Karankumawa/ml_preprocessing_prof.git
+cd ml_preprocessing_profiler
+pip install -e .
+```
+
+**Note:** The library is not yet published to PyPI, so `pip install ml-preprocessing-profiler` won't work yet. Use one of the methods above instead.
+
+For detailed installation instructions and troubleshooting, see [INSTALLATION_GUIDE.md](INSTALLATION_GUIDE.md).
 
 ## 🎯 Quick Start
 

@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """
 Simple Demo Script for ML Preprocessing Profiler
-आसान डेमो स्क्रिप्ट जो library का उपयोग दिखाती है
+Simple demo script that shows how to use the library
 """
 
 print("🚀 ML Preprocessing Profiler - Simple Demo")
 print("=" * 50)
 
-# Method 1: सबसे आसान तरीका (Recommended)
-print("\n📝 Method 1: सबसे आसान तरीका")
+# Method 1: Easiest way (Recommended)
+print("\n📝 Method 1: Easiest way")
 print("from ml_preprocessing_profiler import evaluate_preprocessors")
 
 try:
@@ -66,9 +66,9 @@ except Exception as e:
 
 print("\n" + "=" * 50)
 print("🎉 Demo completed successfully!")
-print("\n💡 अब आप library का उपयोग कर सकते हैं:")
+print("\n💡 Now you can use the library:")
 print("""
-# सबसे आसान तरीका:
+# Easiest way:
 from ml_preprocessing_profiler import evaluate_preprocessors
 from sklearn.datasets import load_iris
 from sklearn.ensemble import RandomForestClassifier
@@ -78,8 +78,8 @@ model = RandomForestClassifier()
 results = evaluate_preprocessors(X, y, model)
 """)
 
-print("\n🔧 अगर अभी भी error आए तो:")
-print("1. सही directory में हैं या नहीं चेक करें")
-print("2. pip install -e . चलाएं")
-print("3. Python environment सही है या नहीं चेक करें")
-print("4. python -c 'import ml_preprocessing_profiler' टेस्ट करें")
+print("\n🔧 If you still get errors:")
+print("1. Check if you're in the correct directory")
+print("2. Run: pip install -e .")
+print("3. Check if you're using the same Python environment")
+print("4. Try: python -c 'import ml_preprocessing_profiler'")

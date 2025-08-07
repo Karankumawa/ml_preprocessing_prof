@@ -24,7 +24,7 @@ def get_encoders(X):
     
     if len(categorical_cols) > 0:
         encoders.update({
-            'OneHotEncoder': OneHotEncoder(handle_unknown='ignore', sparse=False),
+            'OneHotEncoder': OneHotEncoder(handle_unknown='ignore', sparse_output=False),
             'OrdinalEncoder': OrdinalEncoder(handle_unknown='use_encoded_value', unknown_value=-1)
         })
     else:

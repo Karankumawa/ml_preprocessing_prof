@@ -52,8 +52,8 @@ setup(
     zip_safe=False,
     keywords="machine learning, preprocessing, scikit-learn, data science, ml",
     project_urls={
-        "Bug Reports": "https://github.com/yourusername/ml_preprocessing_profiler/issues",
-        "Source": "https://github.com/yourusername/ml_preprocessing_profiler",
+        "Bug Reports": "https://github.com/Karankumawa/ml_preprocessing_prof.git/issues",
+        "Source": "https://github.com/Karankumawa/ml_preprocessing_prof.git",
         "Documentation": "https://ml-preprocessing-profiler.readthedocs.io/",
     },
 )
